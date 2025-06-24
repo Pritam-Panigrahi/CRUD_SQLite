@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card shadow container-custom w-100">
+            <div class="card-body p-4">
+                <h2 class="card-title text-center mb-4">Update Student City</h2>
+                <form id="updateStudentForm" action="/updateStudent" method="POST">
+                    <div class="mb-3">
+                        <label for="txtname" class="form-label">Student Name</label>
+                        <input type="text" class="form-control" id="txtname" name="txtname" placeholder="Enter student name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtcity" class="form-label">New Address</label>
+                        <input type="text" class="form-control" id="txtaddr" name="txtaddr" placeholder="Enter new Address" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtaddress" class="form-label">New City</label>
+                        <input type="text" class="form-control" id="txtcity" name="txtcity" placeholder="Enter new City" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="txtpin" class="form-label">New Pin</label>
+                        <input type="text" class="form-control" id="txtpin" name="txtpin" placeholder="Enter new pin" required>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" id="updateBtn" class="btn btn-primary">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/common.js"></script>
+</body>
+</html>
