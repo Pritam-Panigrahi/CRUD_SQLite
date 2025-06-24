@@ -37,9 +37,7 @@ This project demonstrates the basics of handling data operations in a Flask web 
 ![Screenshot 2025-06-24 142022](https://github.com/user-attachments/assets/71c104dc-2883-4d90-931a-08f59d56e455)
 
 
-> 📁 Place your screenshots in a folder named `screenshots/` in your repo.
 
----
 
 ## ⚙️ How to Run the App
 
